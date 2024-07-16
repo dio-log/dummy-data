@@ -1,0 +1,918 @@
+{
+    "id": "1",
+    "name": "Semiconductor Factory",
+    "type": "Factory",
+    "transform": {
+        "position": {"x": 0, "y": 0, "z": 0},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "scale": {"x": 1, "y": 1, "z": 1}
+    },
+    "children": [
+        {
+            "id": "1-1",
+            "name": "Floor 1",
+            "type": "Floor",
+            "transform": {
+                "position": {"x": 0, "y": 0, "z": 0},
+                "rotation": {"x": 0, "y": 0, "z": 0},
+                "scale": {"x": 1, "y": 1, "z": 1}
+            },
+            "children": [
+                {
+                    "id": "1-1-1",
+                    "name": "Equipment 1",
+                    "type": "Equipment",
+                    "transform": {
+                        "position": {"x": 1, "y": 0, "z": 0},
+                        "rotation": {"x": 0, "y": 0, "z": 0},
+                        "scale": {"x": 1, "y": 1, "z": 1}
+                    },
+                    "children": [
+                        {
+                            "id": "1-1-1-1",
+                            "name": "Sub Equipment 1",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 0, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-1-1-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-1-1-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-1-1-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1-1-2",
+                            "name": "Sub Equipment 2",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 1, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-1-2-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-1-2-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-1-2-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1-1-3",
+                            "name": "Sub Equipment 3",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 2, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-1-3-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-1-3-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-1-3-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1-1-2",
+                    "name": "Equipment 2",
+                    "type": "Equipment",
+                    "transform": {
+                        "position": {"x": 1, "y": 1, "z": 0},
+                        "rotation": {"x": 0, "y": 0, "z": 0},
+                        "scale": {"x": 1, "y": 1, "z": 1}
+                    },
+                    "children": [
+                        {
+                            "id": "1-1-2-1",
+                            "name": "Sub Equipment 1",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 0, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-2-1-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-2-1-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-2-1-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1-2-2",
+                            "name": "Sub Equipment 2",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 1, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-2-2-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-2-2-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-2-2-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1-2-3",
+                            "name": "Sub Equipment 3",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 2, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-2-3-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-2-3-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-2-3-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1-1-3",
+                    "name": "Equipment 3",
+                    "type": "Equipment",
+                    "transform": {
+                        "position": {"x": 1, "y": 2, "z": 0},
+                        "rotation": {"x": 0, "y": 0, "z": 0},
+                        "scale": {"x": 1, "y": 1, "z": 1}
+                    },
+                    "children": [
+                        {
+                            "id": "1-1-3-1",
+                            "name": "Sub Equipment 1",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 0, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-3-1-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-3-1-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-3-1-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1-3-2",
+                            "name": "Sub Equipment 2",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 1, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-3-2-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-3-2-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-3-2-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1-3-3",
+                            "name": "Sub Equipment 3",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 2, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-1-3-3-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-3-3-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-1-3-3-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1-2",
+            "name": "Floor 2",
+            "type": "Floor",
+            "transform": {
+                "position": {"x": 0, "y": 1, "z": 0},
+                "rotation": {"x": 0, "y": 0, "z": 0},
+                "scale": {"x": 1, "y": 1, "z": 1}
+            },
+            "children": [
+                {
+                    "id": "1-2-1",
+                    "name": "Equipment 1",
+                    "type": "Equipment",
+                    "transform": {
+                        "position": {"x": 1, "y": 0, "z": 0},
+                        "rotation": {"x": 0, "y": 0, "z": 0},
+                        "scale": {"x": 1, "y": 1, "z": 1}
+                    },
+                    "children": [
+                        {
+                            "id": "1-2-1-1",
+                            "name": "Sub Equipment 1",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 0, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-1-1-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-1-1-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-1-1-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-2-1-2",
+                            "name": "Sub Equipment 2",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 1, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-1-2-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-1-2-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-1-2-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-2-1-3",
+                            "name": "Sub Equipment 3",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 2, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-1-3-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-1-3-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-1-3-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1-2-2",
+                    "name": "Equipment 2",
+                    "type": "Equipment",
+                    "transform": {
+                        "position": {"x": 0, "y": 1, "z": 0},
+                        "rotation": {"x": 0, "y": 0, "z": 0},
+                        "scale": {"x": 1, "y": 1, "z": 1}
+                    },
+                    "children": [
+                        {
+                            "id": "1-2-2-1",
+                            "name": "Sub Equipment 1",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 0, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-2-1-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-2-1-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-2-1-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-2-2-2",
+                            "name": "Sub Equipment 2",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 1, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-2-2-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-2-2-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-2-2-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-2-2-3",
+                            "name": "Sub Equipment 3",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 2, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-2-3-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-2-3-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-2-3-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1-2-3",
+                    "name": "Equipment 3",
+                    "type": "Equipment",
+                    "transform": {
+                        "position": {"x": 1, "y": 2, "z": 0},
+                        "rotation": {"x": 0, "y": 0, "z": 0},
+                        "scale": {"x": 1, "y": 1, "z": 1}
+                    },
+                    "children": [
+                        {
+                            "id": "1-2-3-1",
+                            "name": "Sub Equipment 1",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 0, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-3-1-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-3-1-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-3-1-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-2-3-2",
+                            "name": "Sub Equipment 2",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 1, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-3-2-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-3-2-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-3-2-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-2-3-3",
+                            "name": "Sub Equipment 3",
+                            "type": "SubEquipment",
+                            "transform": {
+                                "position": {"x": 0, "y": 2, "z": 1},
+                                "rotation": {"x": 0, "y": 0, "z": 0},
+                                "scale": {"x": 1, "y": 1, "z": 1}
+                            },
+                            "children": [
+                                {
+                                    "id": "1-2-3-3-1",
+                                    "name": "SubSub Equipment 1",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 0, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-3-3-2",
+                                    "name": "SubSub Equipment 2",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 1, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "id": "1-2-3-3-3",
+                                    "name": "SubSub Equipment 3",
+                                    "type": "SubSubEquipment",
+                                    "transform": {
+                                        "position": {"x": 2, "y": 0, "z": 0},
+                                        "rotation": {"x": 0, "y": 0, "z": 0},
+                                        "scale": {"x": 1, "y": 1, "z": 1}
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
