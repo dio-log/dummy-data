@@ -9,6 +9,7 @@ public class ObjectSelector : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
+        Debug.Log(Application.persistentDataPath);
     }
 
     void Update()

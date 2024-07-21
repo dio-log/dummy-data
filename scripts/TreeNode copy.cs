@@ -29,16 +29,17 @@ public class ModelDownloader : MonoBehaviour
 
         if (www.result == UnityWebRequest.Result.Success)
         {
+            Debug.Log(www.downloadHandler.data);
             File.WriteAllBytes(zipFilePath, www.downloadHandler.data);
             Debug.Log("Download complete: " + zipFilePath);
 
             ExtractZipFile(zipFilePath, extractedFolderPath);
 
-            GameObject model = LoadModelFromExtractedFolder(extractedFolderPath);
-            if (model != null)
-            {
-                Instantiate(model);
-            }
+            // GameObject model = LoadModelFromExtractedFolder(extractedFolderPath);
+            // if (model != null)
+            // {
+            //     Instantiate(model);
+            // }
         }
         else
         {
@@ -57,17 +58,17 @@ public class ModelDownloader : MonoBehaviour
         Debug.Log("Extraction complete: " + destinationFolder);
     }
 
-    GameObject LoadModelFromExtractedFolder(string folderPath)
-    {
-        // Implement your logic to load the model from the extracted files
-        // For example, if you have a .obj file, you can use an asset loader
-        string modelFilePath = Path.Combine(folderPath, "model.obj");
-        if (File.Exists(modelFilePath))
-        {
-            // Load the model using your preferred method, e.g., OBJ loader
-            GameObject model = OBJLoader.LoadOBJFile(modelFilePath);
-            return model;
-        }
-        return null;
-    }
+    // GameObject LoadModelFromExtractedFolder(string folderPath)
+    // {
+    //     // Implement your logic to load the model from the extracted files
+    //     // For example, if you have a .obj file, you can use an asset loader
+    //     string modelFilePath = Path.Combine(folderPath, "model.obj");
+    //     if (File.Exists(modelFilePath))
+    //     {
+    //         // Load the model using your preferred method, e.g., OBJ loader
+    //         GameObject model = OBJLoader.LoadOBJFile(modelFilePath);
+    //         return model;
+    //     }
+    //     return null;
+    // }
 }
