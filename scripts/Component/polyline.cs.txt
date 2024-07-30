@@ -1,0 +1,79 @@
+using UnityEngine;
+using System.Collections.Generic;
+
+public class PolylineDrawer : MonoBehaviour
+{
+    public LineRenderer lineRenderer;
+    public Camera mainCamera;
+    public float yOffset = 0.1f; // y축 오프셋 (지면 위에 그리기 위함)
+
+    private List<Vector3> points = new List<Vector3>();
+    private bool isDrawing = false;
+
+    void Start()
+    {
+        if (lineRenderer == null)
+            lineRenderer = gameObject.AddComponent<LineRenderer>();
+
+        if (mainCamera == null)
+            mainCamera = Camera.main;
+
+        lineRenderer.positionCount = 0;
+        lineRenderer.startWidth = 0.1f;
+        lineRenderer.endWidth = 0.1f;
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0)) // 마우스 왼쪽 버튼 클릭
+        {
+            if (!isDrawing)
+            {
+                StartDrawing();
+            }
+            AddPoint();
+        }
+
+        if (isDrawing)
+        {
+            UpdateLineRenderer();
+        }
+    }
+
+    void StartDrawing()
+    {
+        isDrawing = true;
+        points.Clear();
+        lineRenderer.positionCount = 0;
+    }
+
+    void AddPoint()
+    {
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        Plane plane = new Plane(Vector3.up, Vector3.up * yOffset);
+
+        if (plane.Raycast(ray, out float enter))
+        {
+            Vector3 hitPoint = ray.GetPoint(enter);
+            points.Add(hitPoint);
+            lineRenderer.positionCount = points.Count;
+            lineRenderer.SetPosition(points.Count - 1, hitPoint);
+        }
+    }
+
+    void UpdateLineRenderer()
+    {
+        if (points.Count > 0)
+        {
+            Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+            Plane plane = new Plane(Vector3.up, Vector3.up * yOffset);
+
+            if (plane.Raycast(ray, out float enter))
+            {
+                Vector3 hitPoint = ray.GetPoint(enter);
+                lineRenderer.positionCount = points.Count + 1;
+                lineRenderer.SetPosition(points.Count, hitPoint);
+            }
+        }
+    }
+}
