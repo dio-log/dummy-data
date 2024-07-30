@@ -1,0 +1,83 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public interface IEntity
+{
+    int Id { get; }
+}
+
+public struct SmallEntity  IEntity
+{
+    public int Id { get; set; }
+    public float X { get; set; }
+    public float Y { get; set; }
+}
+
+public class EntityManager
+{
+    private Dictionaryint, IEntity entities = new Dictionaryint, IEntity();
+    private int nextId = 1;
+
+     새 엔티티 추가
+    public int AddEntity(IEntity entity)
+    {
+        if (entity is SmallEntity smallEntity)
+        {
+            smallEntity.Id = nextId++;
+            entities[smallEntity.Id] = smallEntity;
+            return smallEntity.Id;
+        }
+        throw new ArgumentException(Invalid entity type);
+    }
+
+     ID로 엔티티 가져오기
+    public IEntity GetEntity(int id)
+    {
+        if (entities.TryGetValue(id, out IEntity entity))
+        {
+            return entity;
+        }
+        return null;
+    }
+
+     엔티티 제거
+    public bool RemoveEntity(int id)
+    {
+        return entities.Remove(id);
+    }
+
+     모든 엔티티 가져오기
+    public IEnumerableIEntity GetAllEntities()
+    {
+        return entities.Values;
+    }
+
+     조건에 맞는 엔티티 찾기
+    public IEnumerableIEntity FindEntities(FuncIEntity, bool predicate)
+    {
+        return entities.Values.Where(predicate);
+    }
+
+     엔티티 업데이트
+    public bool UpdateEntity(int id, ActionIEntity updateAction)
+    {
+        if (entities.TryGetValue(id, out IEntity entity))
+        {
+            updateAction(entity);
+            entities[id] = entity;  구조체이므로 다시 할당해야 함
+            return true;
+        }
+        return false;
+    }
+
+     엔티티 수 가져오기
+    public int Count = entities.Count;
+
+     모든 엔티티 제거
+    public void Clear()
+    {
+        entities.Clear();
+        nextId = 1;
+    }
+}
