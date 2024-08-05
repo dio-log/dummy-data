@@ -24,7 +24,7 @@ namespace App.UI.Widgets
 
         private void Start()
         {
-            InstantiateModel();
+            // InstantiateModel();
             
         }
 

@@ -7,6 +7,13 @@ namespace App.Models
 {
     public class Facility : BaseModel
     {
+        private event Action<GameObject> _collisionOther;
+        public event Action<GameObject> Collision
+        {
+            add => _collisionOther += value;
+            remove => _collisionOther -= value;
+        }
+        
         public ModelEntity Entity { get; set; }
 
         [SerializeField] private QuickOutline outline;
@@ -45,6 +52,12 @@ namespace App.Models
                    Entity.Scale != cachedTransform.localScale;
 
         }
-        
+
+        public void OnCollisionOther()
+        {
+            _collisionOther?.Invoke(this.gameObject);
+        }
     }
+    
+   
 }
